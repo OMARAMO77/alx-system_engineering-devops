@@ -1,4 +1,4 @@
-#!/bin/bash
+
 printenv	Prints environment variables
 set	Set or unset values of shell options and positional parameters
 unset	Unset values and attributes of shell variables and functions
