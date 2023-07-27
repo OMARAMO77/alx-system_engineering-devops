@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# This script is displaying "Holberton School" 10 times with while
+# This script is displaying "Best School" 10 times with while
 i=0
 while ((i < 10)); do
 	echo "Best School"
