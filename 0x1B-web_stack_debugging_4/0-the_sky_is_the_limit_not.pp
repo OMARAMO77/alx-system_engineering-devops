@@ -5,6 +5,6 @@ exec { 'upgrade-ULIMIT':
 }
 
 exec { 'restart-nginx':
-  path    => '/bin/',
+  path    => '/usr/sbin/',
   command => 'service nginx restart',
 }
