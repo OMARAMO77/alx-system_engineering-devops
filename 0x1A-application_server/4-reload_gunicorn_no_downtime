@@ -1,1 +1,9 @@
-aaa
+#!/usr/bin/env bash
+
+# Find Gunicorn processes
+pids=$(pgrep gunicorn)
+
+# Reload Gunicorn gracefully
+for pid in $pids; do
+  kill -s HUP $pid
+done
