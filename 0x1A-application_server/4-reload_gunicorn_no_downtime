@@ -7,5 +7,5 @@ if [[ -z $PID ]]; then
 fi
 
 # Send a HUP signal to the master process to gracefully reload workers
-kill -HUP $PID
+kill -HUP "$PID"
 echo "Gunicorn reloaded gracefully"
